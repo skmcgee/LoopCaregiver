@@ -230,11 +230,11 @@ platform :ios do
       raise createCaregiverError("APP_GROUPS capability not found for identifier: #{identifier}") unless app_group_capability_exists
     end
 
-    #validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver")
-    #validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.IntentExtension")
-    #validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.WidgetExtension")
-    #validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp")
-    #validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp.WidgetExtension")
+    validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver")
+    validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.IntentExtension")
+    validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.WidgetExtension")
+    validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp")
+    validate_bundle_id("com.#{TEAMID}.loopkit.LoopCaregiver.watchkitapp.WidgetExtension")
     
     match(
       type: "appstore",
