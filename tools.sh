@@ -6,7 +6,7 @@ set -u
 #From https://www.bluelabellabs.com/blog/generate-apple-certificates-provisioning-profiles/
 
 APP_NAME=LoopCaregiver
-TEAM_ID="5K844XFC6W"
+TEAM_ID="4A4KU3CKC3"
 BUNDLE_ID="com.$TEAM_ID.loopkit.LoopCaregiver"
 WORKSPACE_NAME="LoopCaregiver"
 SCHEME_NAME="LoopCaregiver"
