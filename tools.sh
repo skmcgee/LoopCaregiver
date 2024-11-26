@@ -7,7 +7,7 @@ set -u
 
 APP_NAME=LoopCaregiver
 TEAM_ID="4A4KU3CKC3"
-BUNDLE_ID="com.$TEAM_ID.loopkit.LoopCaregiver"
+BUNDLE_ID="com.4A4KU3CKC3.loopkit.LoopCaregiver"
 WORKSPACE_NAME="LoopCaregiver"
 SCHEME_NAME="LoopCaregiver"
 DISTRIBUTION_GROUP="Collaborators"
